@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Human-Centered Drupal: Progressive Web and HIV Counseling in Rwanda</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/ihangane.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+
+  			<!-- What's Interesting -->
+  			<section>
+  				<h4>
+    				Key Strengths of the E-Heza project?
+    		  </h4>
+          <ul>
+    				<li>Human-Centered Design: Putting People First</li>
+            <li class="fragment">The Technology Stack: Decoupled Drupal and Progessive Web Apps</li>
+            <li class="fragment">User Testing and Feedback Loops</li>
+            <li class="fragment">Organizational Collaboration</li>
+  				</ul>
+  			</section>
+
+        <!-- Human-Centered Design -->
+  			<section>
+  				<h4>
+    				Human-Centered Design: People over Users
+    		  </h4>
+          <img data-src="https://user-images.githubusercontent.com/688507/38470694-43d67b78-3b2c-11e8-83d4-52188566fe51.png" />
+        </section>
+
+        <!-- The Tech Stack -->
+  			<section>
+  				<h4>
+    				The Technology Stack
+    		  </h4>
+          <table>
+            <thead>
+              <tr>
+                <th>Technology</th>
+                <th>Service</th>
+                <th>Use</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Drupal</td>
+                <td>Backend</td>
+                <td>Serve data through restful endpoints.</td>
+              </tr>
+              <tr>
+                <td>Elm</td>
+                <td>Frontend</td>
+                <td>Deliver fast, reliable user interaction.</td>
+              </tr>
+              <tr>
+                <td>PWA</td>
+                <td>Client</td>
+                <td>Keep data consistent in online/offline scenarios.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- User Testing and Feedback Loop -->
+        <section>
+          <h4>
+            User Testing and Feedback Loop
+          </h4>
+          <p>Minimally Viable Product vs. Minimally Testable Product</p>
+          <img data-src="https://user-images.githubusercontent.com/688507/38512171-1fec56be-3bf0-11e8-986d-f89ee6973d3e.jpg" />
+          <p class="small">Image: <a href="http://lean.st/principles/build-measure-learn">http://lean.st/principles/build-measure-learn</a></p>
+        </section>
+
+        <!-- Collaboration and Partnership -->
+        <section>
+          <h4>
+            Collaboration and Partnership
+          </h4>
+        </section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
